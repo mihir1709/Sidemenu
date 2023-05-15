@@ -1,17 +1,77 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-card-header>About-Us</ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <img src="../../assets/a11.jfif" alt="SPIT" style="margin: 5px" />
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      </ion-item>
+      <br>
+      <p>
+        The institute is located in 47 acres of green campus at Andheri (W), the
+        fastest growing suburb of Mumbai. The campus also houses four Bhavan’s
+        Institutions of great repute namely Bhavan’s College (the arts, commerce
+        and science college), Sardar Patel College of Engineering – Government
+        aided Engineering college, S.P. Jain Institute of Management and
+        Research, a management institute and A.H. Wadia, higher secondary
+        school. In 1957, the Bharatiya Vidya Bhavan conceived the idea of
+        establishing an engineering college in Mumbai. Sardar Patel College of
+        Engineering was inaugurated on 19th August 1962. In 1995 self-financed
+        engineering courses were added to it and it functioned as Sardar Patel
+        College of Engineering (Unaided-wing) conducting Electronics
+        Engineering, Computer Engineering and Information Technology Courses and
+        Masters course in Electronics since 2005 till 2008. These courses have
+        earned a great reputation in the field of engineering education, as well
+        as industry. Bharatiya Vidya Bhavan’s Sardar Patel College of
+        Engineering, Unaided Wing was established in its new building under the
+        name and style of Bharatiya Vidya Bhavan’s Sardar Patel Institute of
+        Technology since 2005 and is affiliated to Mumbai University.
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-icon name="pin" slot="start"></ion-icon>
+        <ion-label>Location</ion-label>
+        <ion-button
+          fill="outline"
+          slot="end"
+          href="https://goo.gl/maps/fbaxJuoHMx2VJdGh6"
+          >View</ion-button
+        >
+      </ion-item>
+  
+      <ion-card-content>
+        Bhavans Campus, Old D N Nagar, Munshi Nagar, Andheri West, Mumbai,
+        Maharashtra 400058.
+      </ion-card-content>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card>
+      <ion-item class="ion-activated">
+        <ion-icon name="call-outline" slot="start"></ion-icon>
+        <ion-label>+91-9930362034</ion-label>
+      </ion-item>
+  
+      <ion-item>
+        <ion-icon name="mail-outline" slot="start"></ion-icon>
+        <p>principal@spit.ac.in</p>
+      </ion-item>
+  
+      <ion-item class="ion-activated">
+        <ion-icon name="logo-instagram" slot="start"></ion-icon>
+        <p>www.instagram.com/spit</p>
+      </ion-item>
+  
+      <ion-item>
+        <ion-icon name="logo-facebook" slot="start"></ion-icon>
+        <p>www.facebook.com/spit</p>
+      </ion-item>
+    </ion-card>
+  </ion-card>
 </ion-content>

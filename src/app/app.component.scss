@@ -1,0 +1,27 @@
+ion-toolbar {
+  height: 60px;
+      --background: #9970a3b4;
+    --color: rgb(45, 36, 36);
+  }
+
+  ion-title{
+    --background: #b0e4c9;
+    --color: rgb(39, 33, 33);
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: solid underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  ion-header{
+    margin-bottom: 25px;
+  }
+  ion-menu-button{
+    --background: #9970a3b4;
+    --color: rgb(45, 36, 36);
+  }
+
+  ion-header{
+    height: 50px;
+  }
